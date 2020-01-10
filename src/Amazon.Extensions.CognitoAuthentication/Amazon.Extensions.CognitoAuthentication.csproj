@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Amazon.Extensions.CognitoAuthentication</AssemblyName>
     <RootNamespace>Amazon.Extensions.CognitoAuthentication</RootNamespace>
-    <PackageId>Amazon.Extensions.CognitoAuthentication</PackageId>
+    <PackageId>SYSTM.SDK.Amazon.Extensions.CognitoAuthentication</PackageId>
     <PackageVersion>1.0.3</PackageVersion>
     <Title>Amazon Cognito Authentication Extension Library</Title>
     <Product>Amazon.Extensions.CognitoAuthentication</Product>
@@ -12,10 +12,10 @@
     <Copyright>2018</Copyright>
     <Description>An extension library to assist in the Amazon Cognito User Pools authentication process.</Description>
     <PackageTags>AWS;Amazon;aws-sdk-v3;Cognito</PackageTags>
-    <PackageProjectUrl>https://github.com/aws/aws-sdk-net-extensions-cognito/</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIconUrl>https://sdk-for-net.amazonwebservices.com/images/AWSLogo128x128.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/aws/aws-sdk-net-extensions-cognito/</RepositoryUrl>
+    <RepositoryUrl></RepositoryUrl>
     <Company>Amazon Web Services</Company>
     <SignAssembly>true</SignAssembly>
 
@@ -29,7 +29,7 @@
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <DelaySign>false</DelaySign>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <Choose>
@@ -51,6 +51,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="../../LICENSE" Pack="true" PackagePath=""/>
+    <None Include="../../LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
